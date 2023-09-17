@@ -2,6 +2,9 @@
 #'
 #' Provide a brief summary of the package libraries on your machine.
 #'
+#' @param sizes logical indicating whether or not to calculate library sizes.
+#' Default `FALSE`
+#'
 #' @return A two-column `data.frame` containing the count of packages in each
 #' of the user's libraries
 #' @export
