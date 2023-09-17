@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/rserran/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/rserran/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to help you understand your libraries better,
@@ -28,7 +30,7 @@ library(libminer)
 lib_summary()
 #>                                                                                      Library
 #> 1                       /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/_c/g4nn9vsd285_gcjw3nh8c8kr0000gn/T/Rtmpwqcbua/temp_libpathf45a816c42
+#> 2 /private/var/folders/_c/g4nn9vsd285_gcjw3nh8c8kr0000gn/T/Rtmpwqcbua/temp_libpathf4680a47b8
 #>   n_packages
 #> 1        634
 #> 2          1
@@ -37,8 +39,8 @@ lib_summary()
 lib_summary(sizes = TRUE)
 #>                                                                                      Library
 #> 1                       /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/_c/g4nn9vsd285_gcjw3nh8c8kr0000gn/T/Rtmpwqcbua/temp_libpathf45a816c42
+#> 2 /private/var/folders/_c/g4nn9vsd285_gcjw3nh8c8kr0000gn/T/Rtmpwqcbua/temp_libpathf4680a47b8
 #>   n_packages   lib_size
 #> 1        634 3426770415
-#> 2          1      14392
+#> 2          1      14393
 ```
